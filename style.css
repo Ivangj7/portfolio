@@ -1,0 +1,414 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+h4{
+    font-size: 21px;
+    color: rgb(230, 59, 59);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* -------------NAV-------------- */
+
+nav{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+nav div{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding-right: 10px;
+}
+.uxui{
+    font-weight: 200;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: rgb(230, 59, 59);
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    width: 90%;
+}
+.listaHeader{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+    float: right;
+    width: auto;
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.listaHeader li{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 788px){
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav div{
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 615px){
+    .logo{
+        display: none;
+    }
+    .listaHeader{
+        padding: 0px;
+    }
+}
+
+/* -------------INDEX-------------- */
+
+.quickDesc{
+    width: 90%;
+    text-align: left;
+}
+.education{
+    text-align: left;
+}
+.socialButtons{
+    margin: 0px;
+    padding: 0px;
+}
+.socialButtons li {
+    list-style: none;
+    display: inline-block;
+}
+.linkedIn{
+    height: 40px;
+    padding: 15px 20px 20px 20px;
+}
+.instagram{
+    height: 40px;
+    padding: 15px 20px 20px 20px;
+}
+.picLine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.picAndSocial{
+    grid-column-start: 1;
+    grid-column-start: 2;
+    justify-content: center;
+    display: flex;
+    width: fit-content;
+}
+.aboutDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.centerAbout{
+    display: flex;
+    justify-content: center;
+}
+.aboutDiv{
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+}
+.education ul {
+    padding: 0;
+}
+.experience{
+    text-align: left;
+    width: 10rem;
+}
+.skills{
+    text-align: left;
+    width: 10rem;
+}
+.techSkills{
+    text-align: left;
+    width: 10rem;
+}
+.aboutMe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.profilePic{
+    box-shadow:5px 5px 7px grey;
+    height: 18rem;
+}
+
+@media only screen and (max-width: 788px){
+    .aboutMe{
+        display: flex;
+        flex-direction: column;
+    }
+    .picAndSocial{
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 615px){
+    .aboutDiv{
+        grid-template-columns: 2fr 2fr;
+    }
+}
+/* -------------PROJECT-------------- */
+
+.grey{
+    background-color: rgb(247, 245, 245);
+    padding: 60px 0px 60px 0px;
+}
+.white{
+    padding: 60px 0px 60px 0px;
+}
+.projectName{
+    text-align: center;
+}
+.aboutTheProject{
+    width: 900px;
+    text-align: center;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.aboutTheProject h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.userResearch{
+    margin: auto;
+    width: 1000px;
+}
+.UserResearchDesc{
+    text-align: left;
+}
+.personaOne{
+    margin-top: 30px;
+    width: 450px;
+    display: flex;
+    text-align: left;
+}
+.personaTwo{
+    margin-top: 30px;
+    width: 450px;
+    display: flex;
+    text-align: left;
+}
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+.personas ul{
+    list-style: none;
+}
+.personas li{
+    margin-bottom: 7px;
+}
+.personas li span{
+    font-weight: 600;
+}
+.personasDesc{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: left;
+}
+.audit{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.audit p{
+    text-align: left;
+}
+.auditList{
+    font-weight: 500;
+    text-align: left;
+}
+.auditImages{
+    display: flex;
+    justify-content: flex-end;
+}
+.audit img{
+    margin: 10px;
+    width: auto;
+    height: 65px;
+}
+.goalStatement{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.goalStatement p{
+    text-align: left;
+}
+.userFlow{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.userFlow p{
+    text-align: left;
+}
+.userFlow img{
+    width: auto;
+    height: auto;
+}
+
+/* -------------RESUME-------------- */
+
+.myResume{
+    text-align: center;
+}
+.resumeDownload{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 40px 10px 40px;
+}
+
+/* -------------WORK-------------- */
+
+.workTitle{
+    text-align: center;
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+.workGrid{
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr ;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr;
+}
+.workGrid p{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2/3;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.workKais{
+    box-shadow:5px 5px 7px grey;
+    padding: 30px 15px 30px 15px;
+    border: 1px solid rgb(197, 197, 197);
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.workKais h3{
+    margin: 0px;
+    font-size: 40px;
+}
+.workKais h4{
+    text-align: left;
+    width: 400px;
+}
+.workKais p{
+    text-align: left;
+    width: 400px;
+}
+.workKais img{
+    width: auto;
+    height: 400px;
+}
+.kaisThumbnail{
+    justify-content: flex-end;
+    display: flex;
+}
+@media only screen and (max-width: 1598px){
+    .workKais{
+        justify-content: center;
+    }
+    .workKais p{
+        margin-bottom: 40px;
+    }
+}
+
+/* -------------FREELANCE PRICES-------------- */
+
+.table{
+    margin: auto;
+    width: 900px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 410px;
+}
+.table h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.table th{
+    font-size: 22px;
+}
+
+/* -------------FOOTER-------------- */
+
+footer{
+    background-color: #202020;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+}
+.openWork{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+}
+.sendMessage{
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(248, 233, 18);
+}
