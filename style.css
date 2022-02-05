@@ -365,6 +365,11 @@ h3{
     width: auto;
     height: 400px;
 }
+.kaisDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .kaisThumbnail{
     justify-content: flex-end;
     display: flex;
