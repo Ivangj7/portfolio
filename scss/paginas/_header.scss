@@ -1,0 +1,43 @@
+nav{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+nav div{
+    display: flex;
+    align-items: center;
+}
+.listaHeader li a:hover{
+    color: rgb(230, 59, 59);
+}
+.logo{
+    padding-right: 10px;
+}
+.uxui{
+    font-weight: 200;
+}
+.ivanGjuri{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    display: inline;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.listaHeader{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+    float: right;
+    width: auto;
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.listaHeader li{
+    padding: 5px;
+    margin-left: 10px;
+}

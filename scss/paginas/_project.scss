@@ -1,0 +1,98 @@
+.projectName{
+    text-align: center;
+}
+.aboutTheProject{
+    width: 900px;
+    text-align: center;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.aboutTheProject h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.userResearch{
+    margin: auto;
+    width: 1000px;
+}
+.UserResearchDesc{
+    text-align: left;
+}
+.personaOne{
+    margin-top: 30px;
+    width: 450px;
+    display: flex;
+    text-align: left;
+}
+.personaTwo{
+    margin-top: 30px;
+    width: 450px;
+    display: flex;
+    text-align: left;
+}
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+.personas ul{
+    list-style: none;
+}
+.personas li{
+    margin-bottom: 7px;
+}
+.personas li span{
+    font-weight: 600;
+}
+.personasDesc{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: left;
+}
+.audit{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.audit p{
+    text-align: left;
+}
+.auditList{
+    font-weight: 500;
+    text-align: left;
+}
+.auditImages{
+    display: flex;
+    justify-content: flex-end;
+}
+.audit img{
+    margin: 10px;
+    width: auto;
+    height: 65px;
+}
+.goalStatement{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.goalStatement p{
+    text-align: left;
+}
+.userFlow{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.userFlow p{
+    text-align: left;
+}
+.userFlow img{
+    width: auto;
+    height: auto;
+}
