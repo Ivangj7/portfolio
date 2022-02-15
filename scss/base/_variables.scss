@@ -1,0 +1,17 @@
+$colors: (
+    primary: rgb(230, 59, 59),
+    secondary: black,
+    tertiary: white,
+    alternate: rgb(247, 245, 245),
+);
+
+%skillsBox{
+    text-align: left;
+    width: 10rem;
+};
+
+@mixin sizing($width, $height){
+    width: $width;
+    height: $height;
+};
+

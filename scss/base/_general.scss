@@ -7,7 +7,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: map-get($colors, secondary);
 }
 h2{
     font-family: 'Josefin Sans', sans-serif;
@@ -16,7 +16,7 @@ h2{
     margin-top: 10px;
     margin-bottom: 5px;
     text-align: left;
-    color: rgb(230, 59, 59);
+    color: map-get($colors, primary);
 }
 h3{
     font-family: 'Josefin Sans', sans-serif;
@@ -27,24 +27,24 @@ h3{
 h4{
     font-size: 21px;
     font-weight: 600;
-    color: rgb(230, 59, 59);
+    color: map-get($colors, primary);
     font-family: 'Josefin Sans', sans-serif;
 }
 .bGrey{
-    background-color: rgb(253, 253, 253);
+    background-color: map-get($colors, alternate);
 }
 .fRed{
-    color: rgb(230, 59, 59);
+    color: map-get($colors, primary);
 }
 .grey{
-    background-color: rgb(247, 245, 245);
+    background-color: map-get($colors, alternate);
     padding: 60px 0px 60px 0px;
 }
 .white{
     padding: 60px 0px 60px 0px;
 }
 .bgRed{
-    background-color: rgb(230, 59, 59);
+    background-color: map-get($colors, primary);
 }
 .textWhite{
     color: white;

@@ -71,8 +71,7 @@
 }
 .audit img{
     margin: 10px;
-    width: auto;
-    height: 65px;
+    @include sizing(auto,65px);
 }
 .goalStatement{
     margin: auto;
@@ -93,6 +92,5 @@
     text-align: left;
 }
 .userFlow img{
-    width: auto;
-    height: auto;
+    @include sizing(auto,auto);
 }

@@ -1,3 +1,7 @@
+.experience, .skills, .techSkills {
+  text-align: left;
+  width: 10rem; }
+
 body {
   margin: 0;
   padding: 0;
@@ -31,7 +35,7 @@ h4 {
   font-family: 'Josefin Sans', sans-serif; }
 
 .bGrey {
-  background-color: #fdfdfd; }
+  background-color: #f7f5f5; }
 
 .fRed {
   color: #e63b3b; }
@@ -145,8 +149,9 @@ footer {
   justify-content: center; }
 
 .aboutDiv {
-  margin: auto;
   width: 80%;
+  height: auto;
+  margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   display: grid;
@@ -156,18 +161,6 @@ footer {
 
 .education ul {
   padding: 0; }
-
-.experience {
-  text-align: left;
-  width: 10rem; }
-
-.skills {
-  text-align: left;
-  width: 10rem; }
-
-.techSkills {
-  text-align: left;
-  width: 10rem; }
 
 .aboutMe {
   display: grid;

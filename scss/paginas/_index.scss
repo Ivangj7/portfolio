@@ -43,8 +43,8 @@
     justify-content: center;
 }
 .aboutDiv{
+    @include sizing(80%,auto);
     margin: auto;
-    width: 80%;
     margin-top: 50px;
     margin-bottom: 50px;
     display: grid;
@@ -56,16 +56,13 @@
     padding: 0;
 }
 .experience{
-    text-align: left;
-    width: 10rem;
+    @extend %skillsBox
 }
 .skills{
-    text-align: left;
-    width: 10rem;
+    @extend %skillsBox
 }
 .techSkills{
-    text-align: left;
-    width: 10rem;
+    @extend %skillsBox
 }
 .aboutMe{
     display: grid;
