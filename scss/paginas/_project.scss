@@ -2,11 +2,12 @@
     text-align: center;
 }
 .aboutTheProject{
-    width: 900px;
+    width: 70%;
     text-align: center;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: auto;
-    grid-template-columns: 1fr;
     justify-items: center;
 }
 .aboutTheProject h3{
@@ -15,7 +16,7 @@
 }
 .userResearch{
     margin: auto;
-    width: 1000px;
+    width: 50%;
 }
 .UserResearchDesc{
     text-align: left;
@@ -24,16 +25,19 @@
     margin-top: 30px;
     width: 450px;
     display: flex;
+    flex-wrap: wrap;
     text-align: left;
 }
 .personaTwo{
     margin-top: 30px;
     width: 450px;
     display: flex;
+    flex-wrap: wrap;
     text-align: left;
 }
 .personas{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .personas ul{
@@ -46,15 +50,16 @@
     font-weight: 600;
 }
 .personasDesc{
-    width: 1000px;
+    width: 50%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin: auto;
     text-align: left;
 }
 .audit{
     margin: auto;
-    width: 1000px;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -75,7 +80,7 @@
 }
 .goalStatement{
     margin: auto;
-    width: 1000px;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -84,7 +89,7 @@
 }
 .userFlow{
     margin: auto;
-    width: 1000px;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }

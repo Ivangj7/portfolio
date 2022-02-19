@@ -1,3 +1,6 @@
 .myResume{
     text-align: center;
 }
+.curriculum{
+    @include sizing(600px,auto);
+}
